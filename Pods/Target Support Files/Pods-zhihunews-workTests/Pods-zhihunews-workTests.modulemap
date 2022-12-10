@@ -1,0 +1,6 @@
+framework module Pods_zhihunews_workTests {
+  umbrella header "Pods-zhihunews-workTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

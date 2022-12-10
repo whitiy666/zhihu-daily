@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0E73720AE139DAB316F084 /* Pods_zhihunews_work_zhihunews_workUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF48B3C9CAB06E4DF810C5C /* Pods_zhihunews_work_zhihunews_workUITests.framework */; };
+		0C98E80476DB30C8E04B7F5B /* Pods_zhihunews_workTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5927CF3629325F4B0B29AF /* Pods_zhihunews_workTests.framework */; };
+		8EBB910111AB7B7F9D98DF12 /* Pods_zhihunews_work.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81D19E4A8846032BD38F3FA /* Pods_zhihunews_work.framework */; };
 		EF867D4E2944748300049254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF867D4D2944748300049254 /* AppDelegate.swift */; };
-		EF867D502944748300049254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF867D4F2944748300049254 /* SceneDelegate.swift */; };
 		EF867D522944748300049254 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF867D512944748300049254 /* NavigationViewController.swift */; };
 		EF867D572944748400049254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF867D562944748400049254 /* Assets.xcassets */; };
 		EF867D5A2944748400049254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF867D582944748400049254 /* LaunchScreen.storyboard */; };
@@ -36,9 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5927CF3629325F4B0B29AF /* Pods_zhihunews_workTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhihunews_workTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		976F3A3B31C08577F1B89634 /* Pods-zhihunews-work-zhihunews-workUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihunews-work-zhihunews-workUITests.release.xcconfig"; path = "Target Support Files/Pods-zhihunews-work-zhihunews-workUITests/Pods-zhihunews-work-zhihunews-workUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CF48B3C9CAB06E4DF810C5C /* Pods_zhihunews_work_zhihunews_workUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhihunews_work_zhihunews_workUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75A0378EE16977F26240781 /* Pods-zhihunews-workTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihunews-workTests.debug.xcconfig"; path = "Target Support Files/Pods-zhihunews-workTests/Pods-zhihunews-workTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C785F13EE3F9218F631CE9DB /* Pods-zhihunews-workTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihunews-workTests.release.xcconfig"; path = "Target Support Files/Pods-zhihunews-workTests/Pods-zhihunews-workTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE4D4D2D4B3FEFE5EBA8B1E3 /* Pods-zhihunews-work.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihunews-work.release.xcconfig"; path = "Target Support Files/Pods-zhihunews-work/Pods-zhihunews-work.release.xcconfig"; sourceTree = "<group>"; };
+		D81D19E4A8846032BD38F3FA /* Pods_zhihunews_work.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhihunews_work.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACA3AA7BA19BD18501CDBCB /* Pods-zhihunews-work-zhihunews-workUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihunews-work-zhihunews-workUITests.debug.xcconfig"; path = "Target Support Files/Pods-zhihunews-work-zhihunews-workUITests/Pods-zhihunews-work-zhihunews-workUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF867D4A2944748300049254 /* zhihunews-work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zhihunews-work.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF867D4D2944748300049254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF867D4F2944748300049254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF867D512944748300049254 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		EF867D562944748400049254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF867D592944748400049254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		EF867D6E2944748400049254 /* zhihunews_workUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhihunews_workUITests.swift; sourceTree = "<group>"; };
 		EF867D702944748400049254 /* zhihunews_workUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhihunews_workUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF867D80294483A500049254 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FDF3883229F94A0825016A03 /* Pods-zhihunews-work.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihunews-work.debug.xcconfig"; path = "Target Support Files/Pods-zhihunews-work/Pods-zhihunews-work.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBB910111AB7B7F9D98DF12 /* Pods_zhihunews_work.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C98E80476DB30C8E04B7F5B /* Pods_zhihunews_workTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0E73720AE139DAB316F084 /* Pods_zhihunews_work_zhihunews_workUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D8730EAC2D2768BEBF94AF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3883229F94A0825016A03 /* Pods-zhihunews-work.debug.xcconfig */,
+				CE4D4D2D4B3FEFE5EBA8B1E3 /* Pods-zhihunews-work.release.xcconfig */,
+				EACA3AA7BA19BD18501CDBCB /* Pods-zhihunews-work-zhihunews-workUITests.debug.xcconfig */,
+				976F3A3B31C08577F1B89634 /* Pods-zhihunews-work-zhihunews-workUITests.release.xcconfig */,
+				A75A0378EE16977F26240781 /* Pods-zhihunews-workTests.debug.xcconfig */,
+				C785F13EE3F9218F631CE9DB /* Pods-zhihunews-workTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4E28D0ACEBF01E32C56C4AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D81D19E4A8846032BD38F3FA /* Pods_zhihunews_work.framework */,
+				9CF48B3C9CAB06E4DF810C5C /* Pods_zhihunews_work_zhihunews_workUITests.framework */,
+				1B5927CF3629325F4B0B29AF /* Pods_zhihunews_workTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF867D412944748300049254 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				EF867D632944748400049254 /* zhihunews-workTests */,
 				EF867D6D2944748400049254 /* zhihunews-workUITests */,
 				EF867D4B2944748300049254 /* Products */,
+				4D8730EAC2D2768BEBF94AF7 /* Pods */,
+				A4E28D0ACEBF01E32C56C4AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +140,6 @@
 			children = (
 				EF867D7D294478B500049254 /* controllers */,
 				EF867D4D2944748300049254 /* AppDelegate.swift */,
-				EF867D4F2944748300049254 /* SceneDelegate.swift */,
 				EF867D512944748300049254 /* NavigationViewController.swift */,
 				EF867D562944748400049254 /* Assets.xcassets */,
 				EF867D582944748400049254 /* LaunchScreen.storyboard */,
@@ -142,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF867D742944748400049254 /* Build configuration list for PBXNativeTarget "zhihunews-work" */;
 			buildPhases = (
+				8DCC5B2B80CE7284D3B97B25 /* [CP] Check Pods Manifest.lock */,
 				EF867D462944748300049254 /* Sources */,
 				EF867D472944748300049254 /* Frameworks */,
 				EF867D482944748300049254 /* Resources */,
+				F6C6437AD29779F457DA3FF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF867D772944748400049254 /* Build configuration list for PBXNativeTarget "zhihunews-workTests" */;
 			buildPhases = (
+				5C6DE46AF6766607BAA5A18F /* [CP] Check Pods Manifest.lock */,
 				EF867D5C2944748400049254 /* Sources */,
 				EF867D5D2944748400049254 /* Frameworks */,
 				EF867D5E2944748400049254 /* Resources */,
@@ -177,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF867D7A2944748400049254 /* Build configuration list for PBXNativeTarget "zhihunews-workUITests" */;
 			buildPhases = (
+				5803060A20CCB249D071C745 /* [CP] Check Pods Manifest.lock */,
 				EF867D662944748400049254 /* Sources */,
 				EF867D672944748400049254 /* Frameworks */,
 				EF867D682944748400049254 /* Resources */,
+				CD34B42E9C8D3865776C48C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +303,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5803060A20CCB249D071C745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhihunews-work-zhihunews-workUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6DE46AF6766607BAA5A18F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhihunews-workTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCC5B2B80CE7284D3B97B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhihunews-work-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD34B42E9C8D3865776C48C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zhihunews-work-zhihunews-workUITests/Pods-zhihunews-work-zhihunews-workUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zhihunews-work-zhihunews-workUITests/Pods-zhihunews-work-zhihunews-workUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zhihunews-work-zhihunews-workUITests/Pods-zhihunews-work-zhihunews-workUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C6437AD29779F457DA3FF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zhihunews-work/Pods-zhihunews-work-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zhihunews-work/Pods-zhihunews-work-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zhihunews-work/Pods-zhihunews-work-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF867D462944748300049254 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,7 +413,6 @@
 			files = (
 				EF867D522944748300049254 /* NavigationViewController.swift in Sources */,
 				EF867D4E2944748300049254 /* AppDelegate.swift in Sources */,
-				EF867D502944748300049254 /* SceneDelegate.swift in Sources */,
 				EF867D81294483A500049254 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +577,7 @@
 		};
 		EF867D752944748400049254 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF3883229F94A0825016A03 /* Pods-zhihunews-work.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,6 +589,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +605,7 @@
 		};
 		EF867D762944748400049254 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4D4D2D4B3FEFE5EBA8B1E3 /* Pods-zhihunews-work.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +617,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,6 +633,7 @@
 		};
 		EF867D782944748400049254 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75A0378EE16977F26240781 /* Pods-zhihunews-workTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +653,7 @@
 		};
 		EF867D792944748400049254 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C785F13EE3F9218F631CE9DB /* Pods-zhihunews-workTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +673,7 @@
 		};
 		EF867D7B2944748400049254 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACA3AA7BA19BD18501CDBCB /* Pods-zhihunews-work-zhihunews-workUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +691,7 @@
 		};
 		EF867D7C2944748400049254 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976F3A3B31C08577F1B89634 /* Pods-zhihunews-work-zhihunews-workUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
