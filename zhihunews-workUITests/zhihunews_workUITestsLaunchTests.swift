@@ -2,7 +2,7 @@
 //  zhihunews_workUITestsLaunchTests.swift
 //  zhihunews-workUITests
 //
-//  Created by 白鑫 on 2022/12/10.
+
 //
 
 import XCTest
