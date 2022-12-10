@@ -1,0 +1,6 @@
+framework module Pods_zhihunews_work {
+  umbrella header "Pods-zhihunews-work-umbrella.h"
+
+  export *
+  module * { export * }
+}
