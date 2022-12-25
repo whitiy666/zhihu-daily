@@ -18,6 +18,7 @@
 		EF867D6F2944748400049254 /* zhihunews_workUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF867D6E2944748400049254 /* zhihunews_workUITests.swift */; };
 		EF867D712944748400049254 /* zhihunews_workUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF867D702944748400049254 /* zhihunews_workUITestsLaunchTests.swift */; };
 		EF867D81294483A500049254 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF867D80294483A500049254 /* HomeViewController.swift */; };
+		EF8A4E31294C813800EA3D64 /* stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A4E30294C813800EA3D64 /* stories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		EF867D6E2944748400049254 /* zhihunews_workUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhihunews_workUITests.swift; sourceTree = "<group>"; };
 		EF867D702944748400049254 /* zhihunews_workUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhihunews_workUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF867D80294483A500049254 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EF8A4E30294C813800EA3D64 /* stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stories.swift; sourceTree = "<group>"; };
 		FDF3883229F94A0825016A03 /* Pods-zhihunews-work.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihunews-work.debug.xcconfig"; path = "Target Support Files/Pods-zhihunews-work/Pods-zhihunews-work.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +101,6 @@
 				A75A0378EE16977F26240781 /* Pods-zhihunews-workTests.debug.xcconfig */,
 				C785F13EE3F9218F631CE9DB /* Pods-zhihunews-workTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +139,8 @@
 		EF867D4C2944748300049254 /* zhihunews-work */ = {
 			isa = PBXGroup;
 			children = (
+				EF8A4E34294C828000EA3D64 /* views */,
+				EF8A4E2F294C811500EA3D64 /* models */,
 				EF867D7D294478B500049254 /* controllers */,
 				EF867D4D2944748300049254 /* AppDelegate.swift */,
 				EF867D512944748300049254 /* NavigationViewController.swift */,
@@ -171,6 +174,21 @@
 				EF867D80294483A500049254 /* HomeViewController.swift */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		EF8A4E2F294C811500EA3D64 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A4E30294C813800EA3D64 /* stories.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EF8A4E34294C828000EA3D64 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF867D522944748300049254 /* NavigationViewController.swift in Sources */,
+				EF8A4E31294C813800EA3D64 /* stories.swift in Sources */,
 				EF867D4E2944748300049254 /* AppDelegate.swift in Sources */,
 				EF867D81294483A500049254 /* HomeViewController.swift in Sources */,
 			);

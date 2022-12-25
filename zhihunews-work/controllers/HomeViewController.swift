@@ -3,6 +3,9 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+   
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +24,46 @@ class HomeViewController: UIViewController {
     }()
     
     lazy var barLeft:UIBarButtonItem = {
+        
+        let calendar:Calendar = Calendar.current;
+        let date = Date();
+        let day = calendar.component(.day, from: date);
+        let dayStr = String(day)
+        let month = calendar.component(.month, from: date)
+        var monthStr = "";
+        switch month{
+        case 1:monthStr = "一月"
+            break
+        case 2:monthStr = "二月"
+            break
+        case 3:monthStr = "三月"
+            break
+        case 4:monthStr = "四月"
+            break
+        case 5:monthStr = "五月"
+            break
+        case 6:monthStr = "六月"
+            break
+        case 7:monthStr = "七月"
+            break
+        case 8:monthStr = "八月"
+            break
+        case 9:monthStr = "9月"
+            break
+        case 10:monthStr = "十月"
+            break
+        case 11:monthStr = "十一月"
+            break
+        case 12:monthStr = "十二月"
+            break
+        default:
+            monthStr = "异常月份"
+            break
+        }
+       //低情商：简单粗暴
+        //高情商：朴实，简明扼要✅
+        
+        
         
         lazy var part:UIView = {
             let part = UIView(frame: CGRectMake(0, 0, 170, 40))
@@ -49,14 +92,14 @@ class HomeViewController: UIViewController {
         
         lazy var partTopText:UILabel = {
             let partTopText = UILabel(frame: CGRectMake(15, 0, 30, 25))
-            partTopText.text = "10"
+            partTopText.text = dayStr
             partTopText.font = UIFont.systemFont(ofSize: 20)
             return partTopText
         }()
         
         lazy var partFootText:UILabel = {
             let partFootText = UILabel(frame: CGRectMake(10, 20, 50, 20))
-            partFootText.text = "十二月"
+            partFootText.text = monthStr
             partFootText.font = UIFont.systemFont(ofSize: 10)
             return partFootText
         }()
