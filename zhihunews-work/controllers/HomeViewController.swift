@@ -11,9 +11,15 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         self.view.addSubview(Bar)
+        self.view.addSubview(collectionView)
 
-        
+        request()
     }
+    
+    
+    
+    
+   // ⚠️：appbar部分
     
     lazy var Bar:UINavigationBar = {
         let Bar = UINavigationBar(frame: CGRect(x: 0, y: 50, width: self.view.bounds.width, height: 50))
@@ -22,6 +28,22 @@ class HomeViewController: UIViewController {
         
         return Bar
     }()
+    
+    private func request() {
+        PartModel.reqest { entry in
+            if entry.type == .banner {
+                self.bannerMake = BannerMake(model: entry.model)
+                self.collectionView.delegate = self.bannerMake
+                self.collectionView.dataSource = self.bannerMake
+                self.collectionView.reloadData()
+            }
+            
+        } failure: { error in
+            
+        }
+
+    }
+    
     
     lazy var barLeft:UIBarButtonItem = {
         
@@ -62,6 +84,9 @@ class HomeViewController: UIViewController {
         }
        //低情商：简单粗暴
         //高情商：朴实，简明扼要✅
+        
+        
+        
         
         
         
@@ -155,6 +180,23 @@ class HomeViewController: UIViewController {
             return navigationitem
         }
         
+    
+    
+    
+    lazy var collectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        layout.minimumLineSpacing = 0
+        layout.minimumInteritemSpacing = 0
+        let collecionView = UICollectionView(frame: CGRect(x: 0, y: 100, width: self.view.frame.width, height: self.view.frame.width), collectionViewLayout: layout)
+        collecionView.register(BannerCollectionViewCell.self, forCellWithReuseIdentifier: BannerCollectionViewCell.identifier)
+        collecionView.isPagingEnabled = true
+        return collecionView
+    }()
+    
+    private var bannerMake: BannerMake!
+    
+    
     
   
     

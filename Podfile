@@ -8,6 +8,7 @@ target 'zhihunews-work' do
   # Pods for zhihunews-work
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'SDWebImage'
 
   target 'zhihunews-workTests' do
     inherit! :search_paths

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		EF867D712944748400049254 /* zhihunews_workUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF867D702944748400049254 /* zhihunews_workUITestsLaunchTests.swift */; };
 		EF867D81294483A500049254 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF867D80294483A500049254 /* HomeViewController.swift */; };
 		EF8A4E31294C813800EA3D64 /* stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A4E30294C813800EA3D64 /* stories.swift */; };
+		EFDE2F0529696A8200043C5C /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2F0429696A8200043C5C /* BannerCollectionViewCell.swift */; };
+		EFDE2F0729697A7300043C5C /* ToModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2F0629697A7300043C5C /* ToModel.swift */; };
+		EFDE2F0929697AD500043C5C /* BannerMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2F0829697AD500043C5C /* BannerMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		EF867D702944748400049254 /* zhihunews_workUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhihunews_workUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF867D80294483A500049254 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EF8A4E30294C813800EA3D64 /* stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stories.swift; sourceTree = "<group>"; };
+		EFDE2F0429696A8200043C5C /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFDE2F0629697A7300043C5C /* ToModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToModel.swift; sourceTree = "<group>"; };
+		EFDE2F0829697AD500043C5C /* BannerMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerMaker.swift; sourceTree = "<group>"; };
 		FDF3883229F94A0825016A03 /* Pods-zhihunews-work.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihunews-work.debug.xcconfig"; path = "Target Support Files/Pods-zhihunews-work/Pods-zhihunews-work.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +145,7 @@
 		EF867D4C2944748300049254 /* zhihunews-work */ = {
 			isa = PBXGroup;
 			children = (
+				EFB320D729644426007B268D /* whn */,
 				EF8A4E34294C828000EA3D64 /* views */,
 				EF8A4E2F294C811500EA3D64 /* models */,
 				EF867D7D294478B500049254 /* controllers */,
@@ -187,8 +194,18 @@
 		EF8A4E34294C828000EA3D64 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				EFDE2F0429696A8200043C5C /* BannerCollectionViewCell.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		EFB320D729644426007B268D /* whn */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE2F0629697A7300043C5C /* ToModel.swift */,
+				EFDE2F0829697AD500043C5C /* BannerMaker.swift */,
+			);
+			path = whn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +293,7 @@
 				};
 			};
 			buildConfigurationList = EF867D452944748300049254 /* Build configuration list for PBXProject "zhihunews-work" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -429,9 +446,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDE2F0729697A7300043C5C /* ToModel.swift in Sources */,
+				EFDE2F0929697AD500043C5C /* BannerMaker.swift in Sources */,
 				EF867D522944748300049254 /* NavigationViewController.swift in Sources */,
 				EF8A4E31294C813800EA3D64 /* stories.swift in Sources */,
 				EF867D4E2944748300049254 /* AppDelegate.swift in Sources */,
+				EFDE2F0529696A8200043C5C /* BannerCollectionViewCell.swift in Sources */,
 				EF867D81294483A500049254 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
